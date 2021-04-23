@@ -10,6 +10,7 @@ func _ready():
 	# Constante "INSTANCES_TEXT" más el valor de "instancesCount" como Texto
 	$CountLabel.text = INSTANCES_TEXT + String(instancesCount)
 	pass
-
+func count_new_instance():
+	instancesCount += 1
 
 	pass 
